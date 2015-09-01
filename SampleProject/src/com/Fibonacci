@@ -1,0 +1,18 @@
+Enter file contents here
+
+class Fibonacci{
+public static void main(String args[]){
+	
+	int first,second;
+	first = 0;
+	second = 1; 
+	System.out.println(second);
+	
+	while(first + second <=55){
+		int sum = first + second;
+		System.out.println(sum);
+		first=second;
+		second=sum;
+	} 
+}
+}
